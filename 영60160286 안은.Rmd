@@ -6,9 +6,6 @@ output: word_document
 #**벤처기업 업종별 성비분석**
 ##**60160286 안은영**
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 ##**1.요약(초록):** 
 사용하기로 했던 raw 데이터인 BC.csv를 불러와서 데이트의 속성을View()를 통해 확인한다.
@@ -34,7 +31,6 @@ dplyr함수로 업종별 성비에 대해 알아보고 난뒤에 ggplot을 활�
 ##**4.분석**
 ```{r}
 
-# 필요한 패키지 불러오기
 library(ggplot2)
 library(readxl)
 library(dplyr)
