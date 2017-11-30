@@ -1,6 +1,8 @@
 ---
 title: "개별보고서"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 #**벤처기업 업종별 성비분석**
@@ -81,6 +83,8 @@ ggplot(data=data3,aes(x=work,y=median_m))+geom_point()
 
 
 ```
+
+
 
 ##**5.논의**
 -한계점: 
